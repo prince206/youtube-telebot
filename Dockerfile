@@ -8,4 +8,4 @@ RUN pip install -r requirements.txt
  
 COPY . /app
  
-CMD ["python", "telegram_bot.py"]
+CMD ["python", "telewhisp.py"]
