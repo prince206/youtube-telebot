@@ -36,7 +36,8 @@ This is a Telegram bot that can summarize audio transcriptions using the OpenAI 
  The bot supports the following commands:
  
  - `/sum <YouTube URL>` - Downloads audio from a YouTube video, transcribes it to text using using the OpenAI Whisper, summarizes the text using the Eden AI APIs, and replies with a summary of the text.
- 
+ ## Demo telegram bot
+ try it here. @manychatbx_bot
  ## License
  
  This project is licensed under the MIT License - see the LICENSE file for details.
