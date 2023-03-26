@@ -1,4 +1,4 @@
-# Telegram Bot for Summarizing Audio Transcription
+# Telegram Bot for Summarizing youtube video by pasting video link
 
 This is a Telegram bot that can summarize audio transcriptions using the OpenAI API and Eden AI API. The bot can download audio from YouTube videos, transcribe the audio to text, and then summarize the text using the APIs.
  
