@@ -1,3 +1,4 @@
 telebot
 openai
 ffmpeg
+yt-dlp
