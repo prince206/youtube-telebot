@@ -29,7 +29,7 @@ This is a Telegram bot that can summarize audio transcriptions using the OpenAI 
  export EDEN_AI_API_KEY="YOUR_EDEN_AI_API_KEY"
  ```
  
- 5. Start the bot: `python bot.py`
+ 5. Start the bot: `python telewhisp.py`
  
  ## Commands
  
