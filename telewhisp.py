@@ -10,11 +10,10 @@ from telebot import types
 
 
 # Set Telegram Bot API Token
-bot = telebot.TeleBot('6063263116:AAFVEYQU9T2qrhajQ3JBeH0o3MKRch-Yxqw')
+bot = telebot.TeleBot('your telegram bot token')
 
 # Set OPENAI API Key
-openai.api_key = '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'
-#openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = 'your openai api key'
 
 
 @bot.message_handler(commands=['sum'])
@@ -43,7 +42,8 @@ def summarize_text(message):
         with open('transcript.txt', 'rb') as f:
             bot.send_document(message.chat.id, f)
         # Summarize Transcription using Eden AI API
-        headers = {"Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiZThlZDcyODUtZmYzZC00ZDYzLTg0YTUtZGEwNWFjYzhkYjQwIiwidHlwZSI6ImFwaV90b2tlbiJ9.zwTNfRhMrxQYeUTO9_wjgC5NnscwA_l3iHjiMMvgOUk"}
+        key = 'add your eden ai api key'
+        headers = {"Authorization": "Bearer key"}
         url ="https://api.edenai.run/v2/text/summarize"
         
         payload={"providers": "openai", "language": "en", "text": transcript}
