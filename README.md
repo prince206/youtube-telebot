@@ -14,7 +14,7 @@ This is a Telegram bot that can summarize audio transcriptions using the OpenAI 
  
  ## Usage
  
- 1. Clone this repository: `git clone https://github.com/username/telegram-bot-audio-summarizer.git`
+ 1. Clone this repository: `git clone https://github.com/prince206/youtube-telebot.git`
  2. Install dependencies: `pip install -r requirements.txt`
  3. Set environment variables for your Telegram Bot API token and OpenAI API key:
  
